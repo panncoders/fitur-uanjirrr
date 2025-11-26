@@ -17,3 +17,8 @@ async function sendReaction(msg) {
 */
 await sendText(`hay, gabut jierla`)
 await sendReaction(`au ah`)
+
+/*
+  * command simple
+*/
+let nma = await conn.getName(who)
